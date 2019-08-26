@@ -170,7 +170,7 @@
 }
 
 .md {
-  --ion-toolbar-background: var(--ion-color-primary);
+  --ion-toolbar-background: var(--ion-color-dark);
   --ion-toolbar-color: #fff;
   --ion-toolbar-color-activated: #fff;
 }

@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "@capacitor/core": "1.1.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.10.2",
+    "@fortawesome/free-regular-svg-icons": "^5.10.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "@ionic/react": "^4.8.0-rc.0",
     "@ionic/react-router": "^4.8.0-rc.0",
     "@types/jest": "24.0.11",
