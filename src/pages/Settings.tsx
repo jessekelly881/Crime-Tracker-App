@@ -1,8 +1,16 @@
 import React from 'react';
+import {IonContent, IonToggle, IonList, IonItem, IonLabel} from '@ionic/react';
 
 const Settings: React.FunctionComponent = () => {
   return (
-      <p>Settings</p>
+      <IonContent>
+          <IonList>
+              <IonItem>
+                  <IonLabel>Receive Alerts</IonLabel>
+                  <IonToggle value="alert" onChange={() => {}} />
+              </IonItem>
+          </IonList>
+      </IonContent>
   );
 };
 
