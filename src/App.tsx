@@ -3,6 +3,8 @@ import { Redirect, Route } from 'react-router-dom';
 import { IonFab, IonFabButton, IonIcon, IonTabs, IonTabBar, IonTabButton, IonLabel, IonApp, IonPage, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
+import Settings from './pages/Settings';
+import Report from './pages/Report';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCog, faHome, faBiohazard } from '@fortawesome/free-solid-svg-icons';
@@ -28,7 +30,7 @@ import './theme/variables.css';
 
 const ReportFab: React.FunctionComponent = () => (
     <IonFab style={{marginBottom: "calc(env(safe-area-inset-bottom)/2)"}} vertical="bottom" horizontal="center" slot="fixed">
-        <IonFabButton color="danger">
+        <IonFabButton color="danger" href="/report">
           <FontAwesomeIcon icon={faBiohazard} size="2x"/>
         </IonFabButton>
     </IonFab>
@@ -41,17 +43,19 @@ const App: React.FunctionComponent = () => (
                 <IonTabs>
                     <IonRouterOutlet>
                         <Route path="/home" component={Home} exact={true} />
+                        <Route path="/settings" component={Settings} exact={true} />
+                        <Route path="/report" component={Report} exact={true} />
                         <Route exact path="/" render={() => <Redirect to="/home" />} />
                     </IonRouterOutlet>
 
                     <IonTabBar slot="bottom" color="dark">
-                        <IonTabButton tab="home">
+                        <IonTabButton tab="home" href="/home">
                             <FontAwesomeIcon icon={faHome} size="lg" />
                             <IonLabel>Home</IonLabel>
                         </IonTabButton>
                         <IonTabButton tab="report">
                         </IonTabButton>
-                        <IonTabButton tab="settings">
+                        <IonTabButton tab="settings" href="/settings">
                             <FontAwesomeIcon icon={faCog} size="lg"/>
                             <IonLabel>Settings</IonLabel>
                         </IonTabButton>
