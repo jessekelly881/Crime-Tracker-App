@@ -7,16 +7,18 @@ const mapboxApiKey = "pk.eyJ1Ijoic29tZWdyYXNzIiwiYSI6ImNqenFwbnJmNTBxb3czbm1pazd
 type GeoLocation = [number, number];
 
 
-interface EventLayerProps{
-    point: GeoLocation;
+interface EventsLayerProps{
+    points: GeoLocation[];
 }
 
-const EventLayer: React.FC<EventLayerProps> = (props) => {
+const EventsLayer: React.FC<EventsLayerProps> = ({points}) => {
     const paint =  {'circle-radius': 20, 'circle-color': '#aa0000', 'circle-opacity': 0.4}
 
     return (
         <Layer type="circle" id="marker" paint={paint}>
-            <Feature coordinates={props.point} />
+            { points.map( (point, i) => {
+                return (<Feature coordinates={point} />);
+            }) }
         </Layer>
     )
 }
@@ -49,7 +51,7 @@ const Map: React.FC<MapProps> = (props) => {
 
     return (
           <BaseMap center={props.center} containerStyle={containerStyle} style={mapboxStyle}>
-              <EventLayer point={props.center} />
+              <EventsLayer points={[props.center]} />
           </BaseMap>
     );
 }
