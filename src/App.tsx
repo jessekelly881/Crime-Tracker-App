@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
-import { IonFab, IonFabButton, IonIcon, IonTabs, IonTabBar, IonTabButton, IonLabel, IonApp, IonPage, IonRouterOutlet } from '@ionic/react';
+import { IonModal, IonFab, IonFabButton, IonIcon, IonTabs, IonTabBar, IonTabButton, IonLabel, IonApp, IonPage, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
 import Settings from './pages/Settings';
@@ -64,7 +64,6 @@ const App: React.FunctionComponent = () => (
                 </IonTabs>
 
                 <ReportFab />
-
             </IonPage>
         </IonReactRouter>
 
