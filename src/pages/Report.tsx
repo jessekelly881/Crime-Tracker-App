@@ -1,5 +1,5 @@
 import React from 'react';
-import {IonImg, IonThumbnail, IonListHeader, IonList, IonContent, IonDatetime, IonItem, IonLabel, IonInput} from '@ionic/react';
+import {IonImg, IonThumbnail, IonListHeader, IonList, IonContent, IonDatetime, IonItem, IonLabel, IonInput, IonButton} from '@ionic/react';
 import { Camera } from '@capacitor/core';
 import { Plugins, CameraResultType } from '@capacitor/core';
 
@@ -36,6 +36,7 @@ const Report: React.FC = () => {
                   <IonDatetime placeholder="MM DD YY"></IonDatetime>
               </IonItem>
           </IonList>
+          <IonButton color="danger" expand="full">Report</IonButton>
       </IonContent>
   );
 };
