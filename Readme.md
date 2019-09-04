@@ -11,5 +11,6 @@
 git clone https://github.com/jessekelly881/Crime-Tracker-App
 cd Crime-Tracker-App
 
+npm install
 ionic serve
 ```
