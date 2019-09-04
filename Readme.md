@@ -1,5 +1,5 @@
 # Crime Tracker App
-![React](pics/react.png) ![Ionic](pics/ionic.png)
+[![made-with-ionic](https://img.shields.io/badge/Made%20with-Ionic-1f425f.svg)](https://ionicframework.com)
 > Prototype of an app created to track(and ideally reduce) crime areound the world.
 
 ## Screenshots
