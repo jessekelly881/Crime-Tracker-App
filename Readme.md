@@ -1,4 +1,5 @@
 # Crime Tracker App
+![React](pics/react.png) ![Ionic](pics/ionic.png)
 > Prototype of an app created to track(and ideally reduce) crime areound the world.
 
 ## Screenshots
