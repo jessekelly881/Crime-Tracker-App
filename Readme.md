@@ -33,7 +33,7 @@ ionic serve
 
 ### Code style
 
-This app makes heavy use of react hooks and functions. *Code that introduces large dependencies or makes use of class based components will not be accepted!*
+This app makes heavy use of react hooks and functions. **Code that introduces large dependencies or makes use of class based components will not be accepted!**
 
 ### How to contribute
 
