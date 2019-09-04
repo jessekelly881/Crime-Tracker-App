@@ -7,10 +7,23 @@
 
 ## How to run
 
+1. Clone the project
+
 ```bash
 git clone https://github.com/jessekelly881/Crime-Tracker-App
 cd Crime-Tracker-App
+```
 
+2. Install dependencies
+
+```bash
 npm install
+```
+
+3. Run production server
+
+```bash
 ionic serve
 ```
+
+4. Point browser to http://localhost:4000
