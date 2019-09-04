@@ -3,4 +3,4 @@
 
 ## Screenshots
 
-<img src="pics/home.jpg" alt="drawing" width="400"/>
+![Home Page](pics/home.png | width=150)
