@@ -3,4 +3,4 @@
 
 ## Screenshots
 
-![Home Page](pics/home.png | width=150)
+![Home Page](pics/home.png =250x400)
