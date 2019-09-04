@@ -1,5 +1,5 @@
 # Crime Tracker App
-[![made-with-ionic](https://img.shields.io/badge/Made%20with-Ionic-1f425f.svg)](https://ionicframework.com) [![made-with-react](https://img.shields.io/badge/Made%20with-React-8b0000.svg)](https://reactjs.org)
+[![made-with-ionic](https://img.shields.io/badge/Made%20with-Ionic-1f425f.svg)](https://ionicframework.com) [![made-with-react](https://img.shields.io/badge/Made%20with-React-8b0000.svg)](https://reactjs.org) [![made-with-mapbox](https://img.shields.io/badge/Made%20with-Mapbox-ffa500.svg)](https://mapbox.com)
 > App created to track(and ideally reduce) crime areound the world.
 
 ## Screenshots
