@@ -27,3 +27,14 @@ ionic serve
 ```
 
 4. Point browser to http://localhost:4000
+
+
+## Contributing
+
+### Code style
+
+This app makes heavy use of react hooks and functions. *Code that introduces large dependencies or makes use of class based components will not be accepted!*
+
+### How to contribute
+
+If you wish to contribute please contact me at kellyjesse881@gmail.com or create a push request. I will try to review as quickly as possible.
