@@ -3,4 +3,4 @@
 
 ## Screenshots
 
-![Home Page](pics/home.png =250x400)
+![Home Page](pics/home.png){:height="50%" width="50%"}
